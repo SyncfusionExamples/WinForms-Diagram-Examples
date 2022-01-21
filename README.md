@@ -1,2 +1,2 @@
-# -WinForms-Diagram-Examples
-This repository contains various demos of WinForms Diagram control.
+# WinForms-Diagram-Examples
+This repository contains the samples that demonstrate the functionalities of Diagram control
