@@ -8,15 +8,11 @@ The [WinForms Diagram](https://www.syncfusion.com/winforms-ui-controls/diagram?u
 
 ### Flowchart
 
-The Windows Forms Diagram library provides all the standard flowchart shapes as ready-made objects to build flowcharts, making it is easy to add them to a diagram surface in a single call.
-
-[Learn more about flowchart diagram features](https://www.syncfusion.com/winforms-ui-controls/diagram/flowchart?utm_source=github&utm_medium=listing&utm_campaign=winforms-diagram-github-samples)
+The Windows Forms Diagram library provides all the standard [flowchart](https://www.syncfusion.com/winforms-ui-controls/diagram/flowchart?utm_source=github&utm_medium=listing&utm_campaign=winforms-diagram-github-samples) shapes as ready-made objects to build flowcharts, making it is easy to add them to a diagram surface in a single call.
 
 ### Organizational Chart
 
-Built-in automatic layout algorithm specifically made for organizational charts to arrange the parent and child node positions automatically.
-
-[Learn more about organizational chart features](https://www.syncfusion.com/winforms-ui-controls/diagram/organizational-chart?utm_source=github&utm_medium=listing&utm_campaign=winforms-diagram-github-samples)
+Built-in automatic layout algorithm specifically made for [organizational charts](https://www.syncfusion.com/winforms-ui-controls/diagram/organizational-chart?utm_source=github&utm_medium=listing&utm_campaign=winforms-diagram-github-samples) to arrange the parent and child node positions automatically.
 
 ### Nodes
 
@@ -40,7 +36,7 @@ Interactive features are used to improve the runtime editing experience of a dia
 
 ### Data binding
 
-Populate diagrams with nodes and connectors created and positioned based on data from [data source](https://help.syncfusion.com/windowsforms/diagram/data-binding?utm_source=github&utm_medium=listing&utm_campaign=winforms-diagram-github-samples). In addition, data in any format can be easily converted, mapped, and consumed in the diagram by setting a few properties, without having to write any code. The Diagram library also supports loading data from a list or IEnumerable collection.
+Populate diagrams with nodes and connectors created and positioned based on data from data source. In addition, data in any format can be easily converted, mapped, and consumed in the diagram by setting a few properties, without having to write any code. The Diagram library also supports loading data from a list or IEnumerable collection.
 
 ### Automatic layouts
 
@@ -103,8 +99,6 @@ Today we provide 1700+ controls and frameworks for web ([Blazor](https://www.syn
 <hr style="height:0.3px;border:none;color:lightgrey;background-color:lightgrey;" />
 
 <p align="center">
-  <a href="mailto:sales@syncfusion.com?Subject=Syncfusion WinForms-Diagram - Visual Studio GitHub" target="_top">sales@syncfusion.com</a>   | <a href="https://www.syncfusion.com?utm_source=github&utm_medium=listing&utm_campaign=winforms-diagram-github-samples">www.syncfusion.com</a>  | Toll Free: 1-888-9 DOTNET <br>
+  <a href="mailto:sales@syncfusion.com?Subject=Syncfusion WinForms Diagram - GitHub" target="_top">sales@syncfusion.com</a>   | <a href="https://www.syncfusion.com?utm_source=github&utm_medium=listing&utm_campaign=winforms-diagram-github-samples">www.syncfusion.com</a>  | Toll Free: 1-888-9 DOTNET <br>
 </p>
-
-
 
