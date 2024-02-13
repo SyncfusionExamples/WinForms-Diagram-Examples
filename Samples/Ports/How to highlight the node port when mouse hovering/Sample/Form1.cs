@@ -25,16 +25,19 @@ namespace HighLightPortSample
             diagram1.EventSink.NodeSelected += EventSink_NodeSelected;
             diagram1.EventSink.SelectionListChanged += EventSink_SelectionListChanged;
             diagram1.EventSink.NodeDeselected += EventSink_NodeDeselected;
+          
+            Syncfusion.Windows.Forms.Diagram.Rectangle rectangle1 = new Syncfusion.Windows.Forms.Diagram.Rectangle(250, 50, 100, 100);
+            this.diagram1.Model.AppendChild(rectangle1);
 
-
-            Syncfusion.Windows.Forms.Diagram.Rectangle rectangle = new Syncfusion.Windows.Forms.Diagram.Rectangle(250, 50, 100, 100);
-            this.diagram1.Model.AppendChild(rectangle);
+            Syncfusion.Windows.Forms.Diagram.Rectangle rectangle2 = new Syncfusion.Windows.Forms.Diagram.Rectangle(350, 300, 100, 100);
+            this.diagram1.Model.AppendChild(rectangle2);
 
             Syncfusion.Windows.Forms.Diagram.ConnectionPoint cp1 = new Syncfusion.Windows.Forms.Diagram.ConnectionPoint();
             cp1.VisualType = PortVisualType.CirclePort;
             cp1.FillStyle.Color = Color.Green;
             cp1.Position = Position.MiddleLeft;
             cp1.Visible = false;
+
             Syncfusion.Windows.Forms.Diagram.ConnectionPoint cp2 = new Syncfusion.Windows.Forms.Diagram.ConnectionPoint();
             cp2.VisualType = PortVisualType.CirclePort;
             cp2.FillStyle.Color = Color.Green;
@@ -53,10 +56,38 @@ namespace HighLightPortSample
             cp4.Position = Position.BottomCenter;
             cp4.Visible = false;
 
-            rectangle.Ports.Add(cp1);
-            rectangle.Ports.Add(cp2);
-            rectangle.Ports.Add(cp3);
-            rectangle.Ports.Add(cp4);
+            Syncfusion.Windows.Forms.Diagram.ConnectionPoint cp11 = new Syncfusion.Windows.Forms.Diagram.ConnectionPoint();
+            cp11.VisualType = PortVisualType.CirclePort;
+            cp11.FillStyle.Color = Color.Green;
+            cp11.Position = Position.MiddleLeft;
+            cp11.Visible = false;
+
+            Syncfusion.Windows.Forms.Diagram.ConnectionPoint cp21 = new Syncfusion.Windows.Forms.Diagram.ConnectionPoint();
+            cp21.VisualType = PortVisualType.CirclePort;
+            cp21.FillStyle.Color = Color.Green;
+            cp21.Position = Position.MiddleRight;
+            cp21.Visible = false;
+
+            Syncfusion.Windows.Forms.Diagram.ConnectionPoint cp31 = new Syncfusion.Windows.Forms.Diagram.ConnectionPoint();
+            cp31.VisualType = PortVisualType.CirclePort;
+            cp31.FillStyle.Color = Color.Green;
+            cp31.Position = Position.TopCenter;
+            cp31.Visible = false;
+
+            Syncfusion.Windows.Forms.Diagram.ConnectionPoint cp41 = new Syncfusion.Windows.Forms.Diagram.ConnectionPoint();
+            cp41.VisualType = PortVisualType.CirclePort;
+            cp41.FillStyle.Color = Color.Green;
+            cp41.Position = Position.BottomCenter;
+            cp41.Visible = false;
+
+            rectangle1.Ports.Add(cp1);
+            rectangle1.Ports.Add(cp2);
+            rectangle1.Ports.Add(cp3);
+            rectangle1.Ports.Add(cp4);
+            rectangle2.Ports.Add(cp11);
+            rectangle2.Ports.Add(cp21);
+            rectangle2.Ports.Add(cp31);
+            rectangle2.Ports.Add(cp41);
         }
 
         Node globalNode;
@@ -76,6 +107,10 @@ namespace HighLightPortSample
 
                     int x = e.X - (int)node1.BoundingRectangle.X;
                     int y = e.Y - (int)node1.BoundingRectangle.Y;
+
+                    x = x + (int)diagram1.Origin.X;
+                    y = y + (int)diagram1.Origin.Y;
+
                     if (diagram1.ShowRulers) { x -= 20; y -= 20; }
                     if (e.Button == MouseButtons.None)
                     {
