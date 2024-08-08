@@ -123,36 +123,36 @@ namespace Syncfusion.Windows.Forms.Diagram.Samples.DiagramTool
 		public BarItem barItemAlignTop;
 		public BarItem barItemAlignMiddle;
 		public BarItem barItemAlignBottom;
-		public ContextMenuStrip contextMenu1;
-		public ToolStripMenuItem mnuAlgn;
-		public ToolStripMenuItem mnuFlip;
-		public ToolStripMenuItem mnuAlgnLeft;
-		public ToolStripMenuItem mnuAlgnCenter;
-		public ToolStripMenuItem mnuAlgnRight;
-		public ToolStripMenuItem mnuAlgnTop;
-		public ToolStripMenuItem mnuAlgnMiddle;
-		public ToolStripMenuItem mnuAlgnBottom;
-		public ToolStripMenuItem mnuGrouping;
-		public ToolStripMenuItem mnuOrder;
-		public ToolStripMenuItem mnuRotate;
-		public ToolStripMenuItem mnuResize;
-		public ToolStripMenuItem mnuFlipHoriz;
-		public ToolStripMenuItem mnuFlipVert;
-		public ToolStripMenuItem mnuFlipBoth;
-		public ToolStripMenuItem mnuGGroup;
-		public ToolStripMenuItem mnuOrdBTF;
-		public ToolStripMenuItem mnuOrdBF;
-		public ToolStripMenuItem mnuOrdSB;
-		public ToolStripMenuItem mnuOrdSTB;
-		public ToolStripMenuItem mnuLayout;
-		public ToolStripMenuItem mnuRtClockwise;
-		public ToolStripMenuItem mnuRtCClockwise;
-		public ToolStripMenuItem mnuRsSameWidth;
-		public ToolStripMenuItem mnuRsSameHeight;
-		public ToolStripMenuItem mnuRsSameSize;
-		public ToolStripMenuItem mnuRsSpaseAcross;
-		public ToolStripMenuItem mnuRsSpaceDown;
-        public ToolStripMenuItem mnuGUngroup;
+		public ContextMenu contextMenu1;
+		public MenuItem mnuAlgn;
+		public MenuItem mnuFlip;
+		public MenuItem mnuAlgnLeft;
+		public MenuItem mnuAlgnCenter;
+		public MenuItem mnuAlgnRight;
+		public MenuItem mnuAlgnTop;
+		public MenuItem mnuAlgnMiddle;
+		public MenuItem mnuAlgnBottom;
+		public MenuItem mnuGrouping;
+		public MenuItem mnuOrder;
+		public MenuItem mnuRotate;
+		public MenuItem mnuResize;
+		public MenuItem mnuFlipHoriz;
+		public MenuItem mnuFlipVert;
+		public MenuItem mnuFlipBoth;
+		public MenuItem mnuGGroup;
+		public MenuItem mnuOrdBTF;
+		public MenuItem mnuOrdBF;
+		public MenuItem mnuOrdSB;
+		public MenuItem mnuOrdSTB;
+		public MenuItem mnuLayout;
+		public MenuItem mnuRtClockwise;
+		public MenuItem mnuRtCClockwise;
+		public MenuItem mnuRsSameWidth;
+		public MenuItem mnuRsSameHeight;
+		public MenuItem mnuRsSameSize;
+		public MenuItem mnuRsSpaseAcross;
+		public MenuItem mnuRsSpaceDown;
+        public MenuItem mnuGUngroup;
         public BarItem m_biSelectedAlignment = null;
         #endregion
 		
@@ -359,36 +359,36 @@ namespace Syncfusion.Windows.Forms.Diagram.Samples.DiagramTool
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(DiagramForm));
             this.diagramComponent = new Syncfusion.Windows.Forms.Diagram.Controls.Diagram(this.components);
-            this.contextMenu1 = new System.Windows.Forms.ContextMenuStrip();
-            this.mnuAlgn = new System.Windows.Forms.ToolStripMenuItem();
-            this.mnuAlgnLeft = new System.Windows.Forms.ToolStripMenuItem();
-            this.mnuAlgnCenter = new System.Windows.Forms.ToolStripMenuItem();
-            this.mnuAlgnRight = new System.Windows.Forms.ToolStripMenuItem();
-            this.mnuAlgnTop = new System.Windows.Forms.ToolStripMenuItem();
-            this.mnuAlgnMiddle = new System.Windows.Forms.ToolStripMenuItem();
-            this.mnuAlgnBottom = new System.Windows.Forms.ToolStripMenuItem();
-            this.mnuFlip = new System.Windows.Forms.ToolStripMenuItem();
-            this.mnuFlipHoriz = new System.Windows.Forms.ToolStripMenuItem();
-            this.mnuFlipVert = new System.Windows.Forms.ToolStripMenuItem();
-            this.mnuFlipBoth = new System.Windows.Forms.ToolStripMenuItem();
-            this.mnuGrouping = new System.Windows.Forms.ToolStripMenuItem();
-            this.mnuGGroup = new System.Windows.Forms.ToolStripMenuItem();
-            this.mnuGUngroup = new System.Windows.Forms.ToolStripMenuItem();
-            this.mnuOrder = new System.Windows.Forms.ToolStripMenuItem();
-            this.mnuOrdBTF = new System.Windows.Forms.ToolStripMenuItem();
-            this.mnuOrdBF = new System.Windows.Forms.ToolStripMenuItem();
-            this.mnuOrdSB = new System.Windows.Forms.ToolStripMenuItem();
-            this.mnuOrdSTB = new System.Windows.Forms.ToolStripMenuItem();
-            this.mnuRotate = new System.Windows.Forms.ToolStripMenuItem();
-            this.mnuRtClockwise = new System.Windows.Forms.ToolStripMenuItem();
-            this.mnuRtCClockwise = new System.Windows.Forms.ToolStripMenuItem();
-            this.mnuResize = new System.Windows.Forms.ToolStripMenuItem();
-            this.mnuRsSameWidth = new System.Windows.Forms.ToolStripMenuItem();
-            this.mnuRsSameHeight = new System.Windows.Forms.ToolStripMenuItem();
-            this.mnuRsSameSize = new System.Windows.Forms.ToolStripMenuItem();
-            this.mnuRsSpaseAcross = new System.Windows.Forms.ToolStripMenuItem();
-            this.mnuRsSpaceDown = new System.Windows.Forms.ToolStripMenuItem();
-            this.mnuLayout = new System.Windows.Forms.ToolStripMenuItem();
+            this.contextMenu1 = new System.Windows.Forms.ContextMenu();
+            this.mnuAlgn = new System.Windows.Forms.MenuItem();
+            this.mnuAlgnLeft = new System.Windows.Forms.MenuItem();
+            this.mnuAlgnCenter = new System.Windows.Forms.MenuItem();
+            this.mnuAlgnRight = new System.Windows.Forms.MenuItem();
+            this.mnuAlgnTop = new System.Windows.Forms.MenuItem();
+            this.mnuAlgnMiddle = new System.Windows.Forms.MenuItem();
+            this.mnuAlgnBottom = new System.Windows.Forms.MenuItem();
+            this.mnuFlip = new System.Windows.Forms.MenuItem();
+            this.mnuFlipHoriz = new System.Windows.Forms.MenuItem();
+            this.mnuFlipVert = new System.Windows.Forms.MenuItem();
+            this.mnuFlipBoth = new System.Windows.Forms.MenuItem();
+            this.mnuGrouping = new System.Windows.Forms.MenuItem();
+            this.mnuGGroup = new System.Windows.Forms.MenuItem();
+            this.mnuGUngroup = new System.Windows.Forms.MenuItem();
+            this.mnuOrder = new System.Windows.Forms.MenuItem();
+            this.mnuOrdBTF = new System.Windows.Forms.MenuItem();
+            this.mnuOrdBF = new System.Windows.Forms.MenuItem();
+            this.mnuOrdSB = new System.Windows.Forms.MenuItem();
+            this.mnuOrdSTB = new System.Windows.Forms.MenuItem();
+            this.mnuRotate = new System.Windows.Forms.MenuItem();
+            this.mnuRtClockwise = new System.Windows.Forms.MenuItem();
+            this.mnuRtCClockwise = new System.Windows.Forms.MenuItem();
+            this.mnuResize = new System.Windows.Forms.MenuItem();
+            this.mnuRsSameWidth = new System.Windows.Forms.MenuItem();
+            this.mnuRsSameHeight = new System.Windows.Forms.MenuItem();
+            this.mnuRsSameSize = new System.Windows.Forms.MenuItem();
+            this.mnuRsSpaseAcross = new System.Windows.Forms.MenuItem();
+            this.mnuRsSpaceDown = new System.Windows.Forms.MenuItem();
+            this.mnuLayout = new System.Windows.Forms.MenuItem();
             this.document = new Syncfusion.Windows.Forms.Diagram.Model(this.components);
             this.childFrameBarManager = new Syncfusion.Windows.Forms.Tools.XPMenus.ChildFrameBarManager(this);
             this.barDrawing = new Syncfusion.Windows.Forms.Tools.XPMenus.Bar(this.childFrameBarManager, "Drawing");
@@ -477,7 +477,7 @@ namespace Syncfusion.Windows.Forms.Diagram.Samples.DiagramTool
             // 
             // diagramComponent
             // 
-            this.diagramComponent.ContextMenuStrip = this.contextMenu1;
+            this.diagramComponent.ContextMenu = this.contextMenu1;
             this.diagramComponent.Controller.PasteOffset = new System.Drawing.SizeF(10F, 10F);
             this.diagramComponent.Dock = System.Windows.Forms.DockStyle.Fill;
             this.diagramComponent.GridOfficeScrollBars = Syncfusion.Windows.Forms.OfficeScrollBars.Office2007;
@@ -503,7 +503,7 @@ namespace Syncfusion.Windows.Forms.Diagram.Samples.DiagramTool
             // 
             // contextMenu1
             // 
-            this.contextMenu1.Items.AddRange(new System.Windows.Forms.ToolStripMenuItem[] {
+            this.contextMenu1.MenuItems.AddRange(new System.Windows.Forms.MenuItem[] {
             this.mnuAlgn,
             this.mnuFlip,
             this.mnuGrouping,
@@ -514,8 +514,8 @@ namespace Syncfusion.Windows.Forms.Diagram.Samples.DiagramTool
             // 
             // mnuAlgn
             // 
-            this.mnuAlgn.MergeIndex = 0;
-            this.mnuAlgn.DropDownItems.AddRange(new System.Windows.Forms.ToolStripMenuItem[] {
+            this.mnuAlgn.Index = 0;
+            this.mnuAlgn.MenuItems.AddRange(new System.Windows.Forms.MenuItem[] {
             this.mnuAlgnLeft,
             this.mnuAlgnCenter,
             this.mnuAlgnRight,
@@ -526,44 +526,44 @@ namespace Syncfusion.Windows.Forms.Diagram.Samples.DiagramTool
             // 
             // mnuAlgnLeft
             // 
-            this.mnuAlgnLeft.MergeIndex = 0;
+            this.mnuAlgnLeft.Index = 0;
             this.mnuAlgnLeft.Text = "Align Left";
             this.mnuAlgnLeft.Click += new System.EventHandler(this.barItemAlignLeft_Click);
             // 
             // mnuAlgnCenter
             // 
-            this.mnuAlgnCenter.MergeIndex = 1;
+            this.mnuAlgnCenter.Index = 1;
             this.mnuAlgnCenter.Text = "Align Center";
             this.mnuAlgnCenter.Click += new System.EventHandler(this.barItemAlignCenter_Click);
             // 
             // mnuAlgnRight
             // 
-            this.mnuAlgnRight.MergeIndex = 2;
+            this.mnuAlgnRight.Index = 2;
             this.mnuAlgnRight.Text = "Align Right";
             this.mnuAlgnRight.Click += new System.EventHandler(this.barItemAlignRight_Click);
             // 
             // mnuAlgnTop
             // 
-            this.mnuAlgnTop.MergeIndex = 3;
+            this.mnuAlgnTop.Index = 3;
             this.mnuAlgnTop.Text = "Align Top";
             this.mnuAlgnTop.Click += new System.EventHandler(this.barItemAlignTop_Click);
             // 
             // mnuAlgnMiddle
             // 
-            this.mnuAlgnMiddle.MergeIndex = 4;
+            this.mnuAlgnMiddle.Index = 4;
             this.mnuAlgnMiddle.Text = "Align Middle";
             this.mnuAlgnMiddle.Click += new System.EventHandler(this.barItemAlignMiddle_Click);
             // 
             // mnuAlgnBottom
             // 
-            this.mnuAlgnBottom.MergeIndex = 5;
+            this.mnuAlgnBottom.Index = 5;
             this.mnuAlgnBottom.Text = "Align Bottom";
             this.mnuAlgnBottom.Click += new System.EventHandler(this.barItemAlignBottom_Click);
             // 
             // mnuFlip
             // 
-            this.mnuFlip.MergeIndex = 1;
-            this.mnuFlip.DropDownItems.AddRange(new System.Windows.Forms.ToolStripMenuItem[] {
+            this.mnuFlip.Index = 1;
+            this.mnuFlip.MenuItems.AddRange(new System.Windows.Forms.MenuItem[] {
             this.mnuFlipHoriz,
             this.mnuFlipVert,
             this.mnuFlipBoth});
@@ -571,46 +571,46 @@ namespace Syncfusion.Windows.Forms.Diagram.Samples.DiagramTool
             // 
             // mnuFlipHoriz
             // 
-            this.mnuFlipHoriz.MergeIndex = 0;
+            this.mnuFlipHoriz.Index = 0;
             this.mnuFlipHoriz.Text = "Flip Horizontally";
             this.mnuFlipHoriz.Click += new System.EventHandler(this.barItemFlipHorizontal_Click);
             // 
             // mnuFlipVert
             // 
-            this.mnuFlipVert.MergeIndex = 1;
+            this.mnuFlipVert.Index = 1;
             this.mnuFlipVert.Text = "Flip Vertically";
             this.mnuFlipVert.Click += new System.EventHandler(this.barItemFlipVertical_Click);
             // 
             // mnuFlipBoth
             // 
-            this.mnuFlipBoth.MergeIndex = 2;
+            this.mnuFlipBoth.Index = 2;
             this.mnuFlipBoth.Text = "Flip Both";
             this.mnuFlipBoth.Click += new System.EventHandler(this.mnuFlipBoth_Click);
             // 
             // mnuGrouping
             // 
-            this.mnuGrouping.MergeIndex = 2;
-            this.mnuGrouping.DropDownItems.AddRange(new System.Windows.Forms.ToolStripMenuItem[] {
+            this.mnuGrouping.Index = 2;
+            this.mnuGrouping.MenuItems.AddRange(new System.Windows.Forms.MenuItem[] {
             this.mnuGGroup,
             this.mnuGUngroup});
             this.mnuGrouping.Text = "Grouping";
             // 
             // mnuGGroup
             // 
-            this.mnuGGroup.MergeIndex = 0;
+            this.mnuGGroup.Index = 0;
             this.mnuGGroup.Text = "Group";
             this.mnuGGroup.Click += new System.EventHandler(this.barItemGroup_Click);
             // 
             // mnuGUngroup
             // 
-            this.mnuGUngroup.MergeIndex = 1;
+            this.mnuGUngroup.Index = 1;
             this.mnuGUngroup.Text = "Ungroup";
             this.mnuGUngroup.Click += new System.EventHandler(this.barItemUngroup_Click);
             // 
             // mnuOrder
             // 
-            this.mnuOrder.MergeIndex = 3;
-            this.mnuOrder.DropDownItems.AddRange(new System.Windows.Forms.ToolStripMenuItem[] {
+            this.mnuOrder.Index = 3;
+            this.mnuOrder.MenuItems.AddRange(new System.Windows.Forms.MenuItem[] {
             this.mnuOrdBTF,
             this.mnuOrdBF,
             this.mnuOrdSB,
@@ -619,52 +619,52 @@ namespace Syncfusion.Windows.Forms.Diagram.Samples.DiagramTool
             // 
             // mnuOrdBTF
             // 
-            this.mnuOrdBTF.MergeIndex = 0;
+            this.mnuOrdBTF.Index = 0;
             this.mnuOrdBTF.Text = "Bring To Front";
             this.mnuOrdBTF.Click += new System.EventHandler(this.barItemBringToFront_Click);
             // 
             // mnuOrdBF
             // 
-            this.mnuOrdBF.MergeIndex = 1;
+            this.mnuOrdBF.Index = 1;
             this.mnuOrdBF.Text = "Bring Forward";
             this.mnuOrdBF.Click += new System.EventHandler(this.barItemBringForward_Click);
             // 
             // mnuOrdSB
             // 
-            this.mnuOrdSB.MergeIndex = 2;
+            this.mnuOrdSB.Index = 2;
             this.mnuOrdSB.Text = "Send Backward";
             this.mnuOrdSB.Click += new System.EventHandler(this.barItemSendBackward_Click);
             // 
             // mnuOrdSTB
             // 
-            this.mnuOrdSTB.MergeIndex = 3;
+            this.mnuOrdSTB.Index = 3;
             this.mnuOrdSTB.Text = "Send To Back";
             this.mnuOrdSTB.Click += new System.EventHandler(this.barItemSendToBack_Click);
             // 
             // mnuRotate
             // 
-            this.mnuRotate.MergeIndex = 4;
-            this.mnuRotate.DropDownItems.AddRange(new System.Windows.Forms.ToolStripMenuItem[] {
+            this.mnuRotate.Index = 4;
+            this.mnuRotate.MenuItems.AddRange(new System.Windows.Forms.MenuItem[] {
             this.mnuRtClockwise,
             this.mnuRtCClockwise});
             this.mnuRotate.Text = "Rotate";
             // 
             // mnuRtClockwise
             // 
-            this.mnuRtClockwise.MergeIndex = 0;
+            this.mnuRtClockwise.Index = 0;
             this.mnuRtClockwise.Text = "Rotate 90 clockwise";
             this.mnuRtClockwise.Click += new System.EventHandler(this.barItemRotateRight_Click);
             // 
             // mnuRtCClockwise
             // 
-            this.mnuRtCClockwise.MergeIndex = 1;
+            this.mnuRtCClockwise.Index = 1;
             this.mnuRtCClockwise.Text = "Rotate 90 counter-clockwise";
             this.mnuRtCClockwise.Click += new System.EventHandler(this.barItemRotateLeft_Click);
             // 
             // mnuResize
             // 
-            this.mnuResize.MergeIndex = 5;
-            this.mnuResize.DropDownItems.AddRange(new System.Windows.Forms.ToolStripMenuItem[] {
+            this.mnuResize.Index = 5;
+            this.mnuResize.MenuItems.AddRange(new System.Windows.Forms.MenuItem[] {
             this.mnuRsSameWidth,
             this.mnuRsSameHeight,
             this.mnuRsSameSize,
@@ -674,37 +674,37 @@ namespace Syncfusion.Windows.Forms.Diagram.Samples.DiagramTool
             // 
             // mnuRsSameWidth
             // 
-            this.mnuRsSameWidth.MergeIndex = 0;
+            this.mnuRsSameWidth.Index = 0;
             this.mnuRsSameWidth.Text = "Same Width";
             this.mnuRsSameWidth.Click += new System.EventHandler(this.barItemSameWidth_Click);
             // 
             // mnuRsSameHeight
             // 
-            this.mnuRsSameHeight.MergeIndex = 1;
+            this.mnuRsSameHeight.Index = 1;
             this.mnuRsSameHeight.Text = "Same Height";
             this.mnuRsSameHeight.Click += new System.EventHandler(this.barItemSameHeight_Click);
             // 
             // mnuRsSameSize
             // 
-            this.mnuRsSameSize.MergeIndex = 2;
+            this.mnuRsSameSize.Index = 2;
             this.mnuRsSameSize.Text = "Same Size";
             this.mnuRsSameSize.Click += new System.EventHandler(this.barItemSameSize_Click);
             // 
             // mnuRsSpaseAcross
             // 
-            this.mnuRsSpaseAcross.MergeIndex = 3;
+            this.mnuRsSpaseAcross.Index = 3;
             this.mnuRsSpaseAcross.Text = "Space Across";
             this.mnuRsSpaseAcross.Click += new System.EventHandler(this.barItemSpaceAcross_Click);
             // 
             // mnuRsSpaceDown
             // 
-            this.mnuRsSpaceDown.MergeIndex = 4;
+            this.mnuRsSpaceDown.Index = 4;
             this.mnuRsSpaceDown.Text = "Space Down";
             this.mnuRsSpaceDown.Click += new System.EventHandler(this.barItemSpaceDown_Click);
             // 
             // mnuLayout
             // 
-            this.mnuLayout.MergeIndex = 6;
+            this.mnuLayout.Index = 6;
             this.mnuLayout.Text = "Layout nodes";
             this.mnuLayout.Click += new System.EventHandler(this.mnuLayout_Click);
             // 

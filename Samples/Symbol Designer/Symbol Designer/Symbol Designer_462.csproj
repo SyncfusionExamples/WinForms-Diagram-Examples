@@ -145,7 +145,6 @@
   <ItemGroup>
     <None Include="app.config" />
     <None Include="app2010.config" />
-    <None Include="packages.config" />
     <PackageReference Include="Syncfusion.Diagram.Utility.Windows" Version="*" />
     <PackageReference Include="Syncfusion.Diagram.Windows" Version="*" />
     <PackageReference Include="Syncfusion.Diagram.Base" Version="*" />
