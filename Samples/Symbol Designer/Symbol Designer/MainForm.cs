@@ -445,7 +445,7 @@ namespace Syncfusion.Windows.Forms.Diagram.Samples.DiagramTool
             // dockingManager
             // 
             this.dockingManager.ActiveCaptionFont = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.World);
-#if NETCORE
+#if !NETCOREAPP
             this.dockingManager.DockLayoutStream = ((System.IO.MemoryStream)(resources.GetObject("dockingManager.DockLayoutStream")));
 #endif
             this.dockingManager.HostControl = this;
@@ -605,7 +605,7 @@ namespace Syncfusion.Windows.Forms.Diagram.Samples.DiagramTool
             // 
             // mainFrameBarManager
             // 
-#if NETCORE
+#if !NETCOREAPP
             this.mainFrameBarManager.BarPositionInfo = ((System.IO.MemoryStream)(resources.GetObject("mainFrameBarManager.BarPositionInfo")));
 #endif
             this.mainFrameBarManager.Bars.Add(this.mainMenuBar);
