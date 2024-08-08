@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.8.34309.116
+VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PanTool", "PanTool\PanTool.csproj", "{D1A251E6-2333-43E8-92DC-CAF4E120214C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PanTool_462", "PanTool_462.csproj", "{D1A251E6-2333-43E8-92DC-CAF4E120214C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -20,6 +20,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {928EAFEB-2161-4DE0-8430-4CE3C66B805B}
+		SolutionGuid = {29C86DE8-507A-4A19-9F5D-2A2F8241FA24}
 	EndGlobalSection
 EndGlobal

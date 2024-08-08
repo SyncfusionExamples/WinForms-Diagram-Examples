@@ -4,14 +4,11 @@ using System;
 using System.Collections;
 using System.ComponentModel;
 using System.Drawing;
-using System.Runtime.Serialization;
 using System.Runtime.Serialization.Formatters.Binary;
 using System.Windows.Forms;
-using System.Resources;
 using System.Drawing.Printing;
 using System.Text.RegularExpressions;
 using System.IO;
-using System.Runtime.Serialization.Formatters.Soap;
 using Syncfusion.Windows.Forms.Diagram.Controls;
 using Syncfusion.Windows.Forms.Tools;
 using Syncfusion.Windows.Forms.Tools.XPMenus;
@@ -448,7 +445,9 @@ namespace Syncfusion.Windows.Forms.Diagram.Samples.DiagramTool
             // dockingManager
             // 
             this.dockingManager.ActiveCaptionFont = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.World);
+#if NETCORE
             this.dockingManager.DockLayoutStream = ((System.IO.MemoryStream)(resources.GetObject("dockingManager.DockLayoutStream")));
+#endif
             this.dockingManager.HostControl = this;
             this.dockingManager.InActiveCaptionFont = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.World);
             this.dockingManager.Office2007Theme = Syncfusion.Windows.Forms.Office2007Theme.Silver;
@@ -606,7 +605,9 @@ namespace Syncfusion.Windows.Forms.Diagram.Samples.DiagramTool
             // 
             // mainFrameBarManager
             // 
+#if NETCORE
             this.mainFrameBarManager.BarPositionInfo = ((System.IO.MemoryStream)(resources.GetObject("mainFrameBarManager.BarPositionInfo")));
+#endif
             this.mainFrameBarManager.Bars.Add(this.mainMenuBar);
             this.mainFrameBarManager.Bars.Add(this.standardToolbar);
             this.mainFrameBarManager.Bars.Add(this.symbolToolBar);
