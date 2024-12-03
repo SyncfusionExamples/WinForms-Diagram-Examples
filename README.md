@@ -2,7 +2,7 @@
 
 The [WinForms Diagram](https://www.syncfusion.com/winforms-ui-controls/diagram?utm_source=github&utm_medium=listing&utm_campaign=winforms-diagram-github-samples) is a feature-rich control for visualizing, creating, and editing interactive diagrams. It supports creating flow charts, organizational charts, network diagrams, and more either through code or a visual interface.
 
-![Syncfusion&reg; winforms diagram control showcase](https://cdn.syncfusion.com/visual-studio-market/winforms/diagram/diagram.png).
+![syncfusion&reg; winforms diagram control showcase](https://cdn.syncfusion.com/visual-studio-market/winforms/diagram/diagram.png).
 
 ## Features and Benefits
 
