@@ -54,7 +54,6 @@
     <None Remove="obj_90\**" />
     <None Remove="app.config" />
     <None Include="app.config" />
-    <None Include="build.log" />
     <None Remove="Properties\Settings.settings" />
     <None Include="Properties\Settings.settings" />
     <None Remove="app.manifest" />
@@ -102,7 +101,6 @@
     <Compile Include="MainForm.cs" />
     <Compile Include="MainForm.Designer.cs" />
     <Compile Include="Program.cs" />
-    <Content Include="diagram.ico" />
     <EmbeddedResource Include="MainForm.resx" />
 
   </ItemGroup>
