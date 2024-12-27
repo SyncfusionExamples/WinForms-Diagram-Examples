@@ -53,9 +53,6 @@
     <ApplicationManifest>app.manifest</ApplicationManifest>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="DemoCommon">
-      <HintPath>.\DemoCommon.dll</HintPath>
-    </Reference>
     <Reference Include="Syncfusion.Diagram.Base" Version="*">
     </Reference>
     <Reference Include="Syncfusion.Diagram.Utility.Window" Version="*">

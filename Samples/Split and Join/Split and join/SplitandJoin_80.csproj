@@ -111,9 +111,4 @@
   <ItemGroup>
     <PackageReference Include="Syncfusion.Diagram.Windows" Version="*" />
   </ItemGroup>
-  <ItemGroup>
-    <Reference Include="DemoCommon">
-      <HintPath>DemoCommon.dll</HintPath>
-    </Reference>
-  </ItemGroup>
 </Project>

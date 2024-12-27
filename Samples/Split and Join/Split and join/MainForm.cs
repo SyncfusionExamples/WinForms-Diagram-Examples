@@ -37,7 +37,7 @@ namespace FlowDiagram_2005
         public MainForm()
         {
             InitializeComponent();
-            paletteGroupBar1.LoadPalette(@"..\..\..\Flowchart Symbols.edp");
+            paletteGroupBar1.LoadPalette(@"..\..\Flowchart Symbols.edp");
             this.diagram1.BeginUpdate();
             this.diagram1.Model.RenderingStyle.SmoothingMode = SmoothingMode.HighQuality;
             this.diagram1.Model.BoundaryConstraintsEnabled = false;
