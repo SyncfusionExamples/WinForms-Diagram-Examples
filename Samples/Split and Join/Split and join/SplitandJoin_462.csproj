@@ -53,19 +53,7 @@
     <ApplicationManifest>app.manifest</ApplicationManifest>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Syncfusion.Diagram.Base" Version="*">
-    </Reference>
-    <Reference Include="Syncfusion.Diagram.Utility.Window" Version="*">
-    </Reference>
-    <Reference Include="Syncfusion.Diagram.Windows" Version="*">
-    </Reference>
-    <Reference Include="Syncfusion.Licensing" Version="*">
-    </Reference>
-    <Reference Include="Syncfusion.Shared.Base" Version="*">
-    </Reference>
-    <Reference Include="Syncfusion.Shared.Windows" Version="*">
-    </Reference>
-    <Reference Include="System">
+        <Reference Include="System">
       <Name>System</Name>
     </Reference>
     <Reference Include="System.Data">
@@ -86,6 +74,9 @@
     <Reference Include="System.Xml">
       <Name>System.XML</Name>
     </Reference>
+  </ItemGroup>
+<ItemGroup>
+    <PackageReference Include="Syncfusion.Diagram.Windows" Version="*" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="MainForm.cs">
