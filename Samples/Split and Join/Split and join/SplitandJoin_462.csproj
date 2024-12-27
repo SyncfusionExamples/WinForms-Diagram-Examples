@@ -53,7 +53,7 @@
     <ApplicationManifest>app.manifest</ApplicationManifest>
   </PropertyGroup>
   <ItemGroup>
-        <Reference Include="System">
+    <Reference Include="System">
       <Name>System</Name>
     </Reference>
     <Reference Include="System.Data">
@@ -75,7 +75,7 @@
       <Name>System.XML</Name>
     </Reference>
   </ItemGroup>
-<ItemGroup>
+  <ItemGroup>
     <PackageReference Include="Syncfusion.Diagram.Windows" Version="*" />
   </ItemGroup>
   <ItemGroup>
@@ -101,7 +101,6 @@
       <DesignTime>True</DesignTime>
     </Compile>
     <None Include="app.config" />
-    <None Include="Data\Flowchart Symbols.edp" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

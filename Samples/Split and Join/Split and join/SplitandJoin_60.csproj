@@ -54,9 +54,7 @@
     <None Remove="obj_90\**" />
     <None Remove="app.config" />
     <None Include="app.config" />
-    <None Remove="Data\Flowchart Symbols.edp" />
     <None Include="build.log" />
-    <None Include="Data\Flowchart Symbols.edp" />
     <None Remove="Properties\Settings.settings" />
     <None Include="Properties\Settings.settings" />
     <None Remove="app.manifest" />
