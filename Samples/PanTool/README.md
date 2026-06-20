@@ -1,6 +1,6 @@
 # Pan Tool sample
 
-This sample explains how to enable pan tool for diagram area and select tool for node.
+This sample explains how to enable pan tool for diagram area and select tool for node. Explore more details about the WinForms Diagram control refer to the following URL : [WinForms Diagram](https://www.syncfusion.com/winforms-ui-controls/diagram)
 
 __*Documentation*__: https://help.syncfusion.com/windowsforms/diagram/ports-and-connections
 

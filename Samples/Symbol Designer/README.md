@@ -1,6 +1,6 @@
 # Symbol Designer sample
 
-This sample will help us to create new Symbols and can save them as a Symbol Palatte and used them in your application.
+This sample will help us to create new Symbols and can save them as a Symbol Palatte and used them in your application. Explore more details about the WinForms Diagram control refer to the following URL : [WinForms Diagram](https://www.syncfusion.com/winforms-ui-controls/diagram)
 
 __*Documentation*__: https://help.syncfusion.com/windowsforms/diagram/getting-started#symbol-designer
 
