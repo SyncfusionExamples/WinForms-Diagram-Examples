@@ -1,6 +1,6 @@
 # Integrate the WPF Diagram control into a WinForms application
 
-This sample will help us to integrate the WPF SfDiagram control into the WinForms application. Explore more details about the WinForms Diagram control refer to the following URL : [WinForms Diagram](https://www.syncfusion.com/winforms-ui-controls/diagram)
+This sample will help us to integrate the WPF SfDiagram control into the WinForms application. Explore more details about the WinForms Diagram control refer to the following URL : [WinForms Diagram](https://www.syncfusion.com/diagram-sdk/winforms-diagram)
 
 
 ## Project pre-requisites
