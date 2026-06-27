@@ -1,6 +1,6 @@
 # Node port highlight sample
 
-This sample will help us to high light the NodePorts when mouse hover on it in your application. Explore more details about the WinForms Diagram control refer to the following URL : [WinForms Diagram](https://www.syncfusion.com/winforms-ui-controls/diagram)
+This sample will help us to high light the NodePorts when mouse hover on it in your application. Explore more details about the WinForms Diagram control refer to the following URL : [WinForms Diagram](https://www.syncfusion.com/diagram-sdk/winforms-diagram)
 
 __*Documentation*__: https://help.syncfusion.com/windowsforms/diagram/ports-and-connections
 
